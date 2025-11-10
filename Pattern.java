@@ -14,7 +14,7 @@ public class Pattern{
             System.out.println(stars);
             i++;
             //adds one more star to the string
-            stars= stars + "*";
+            stars= stars + "**";
         }
     }
     // pre condition: rows must be a positive number
