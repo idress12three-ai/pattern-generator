@@ -4,6 +4,8 @@
 
 public class Pattern{
 
+    //pre condition: rows must be a positive number
+    //post condition: prints a right triangle made of stars 
     public static void stars(int rows){
         int i =0;
         String stars = "*";
@@ -16,7 +18,7 @@ public class Pattern{
         }
     }
     // pre condition: rows must be a positive number
-    // post condition: prints a staircase with rows as the bottom and longest step
+    // post condition: prints a staircase of numbers with rows as the bottom and longest step
     public static void triangle(int rows){
         int n=0;
         while(n<rows){
@@ -32,7 +34,7 @@ public class Pattern{
             
         }
     }
-    // pre condition: start must be a odd number
+    // pre condition: start must be a positive odd number
     // post condition: prints an upside down staircase with odd number steps
     public static void odds(int start){
         for (int i = start; i>=1; i-=2){
@@ -45,7 +47,7 @@ public class Pattern{
     }
     
    
-    // pre conditions maxE must be a positive number
+    // pre conditions : maxE must be a positive number
     //post conditions prints a double staircase of E's and O's
     public static void eo(int maxE){
        if (maxE <= 0) return;
@@ -91,8 +93,8 @@ public class Pattern{
         }
           
         }
-    //pre condition: number must be positive
-    //post condition: prints an upside down pyramid
+    //pre condition: rows must be a positive number
+    //post condition: prints an upside down pyramid of numbers  
     public static void pyramid(int rows){
         //prints the spaces
         int f = rows;
